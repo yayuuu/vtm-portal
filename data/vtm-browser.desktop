@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=VTM Browser
+Comment=Open URLs in a configurable terminal browser inside VTM
+Exec=vtm-open %U
+TryExec=vtm-open
+Terminal=false
+NoDisplay=true
+Categories=Network;WebBrowser;
+MimeType=x-scheme-handler/http;x-scheme-handler/https;text/html;application/xhtml+xml;

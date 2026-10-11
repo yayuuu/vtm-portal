@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.freedesktop.impl.portal.desktop.vtm
+Exec=@CMAKE_INSTALL_FULL_LIBEXECDIR@/xdg-desktop-portal-vtm
+@PORTAL_SYSTEMD_SERVICE_LINE@

@@ -1,0 +1,22 @@
+# User overrides: ~/.config/xdg-desktop-portal-vtm/config.toml
+# Commands are arrays of arguments, never shell commands.
+[vtm]
+command = ["vtm"]
+# Empty uses VTM's ordinary per-user session. Set when using `vtm -p NAME`.
+session = ""
+launch_timeout = 15
+
+[browser]
+# Examples: ["w3m"], ["lynx"], ["links"], ["carbonyl", "--some-option"]
+command = ["carbonyl"]
+size = "180:58"
+title = "Browser"
+schemes = ["http", "https", "file"]
+
+[picker]
+command = ["elio"]
+size = "150:50"
+start_timeout = 30
+
+[terminal]
+size = "120:40"

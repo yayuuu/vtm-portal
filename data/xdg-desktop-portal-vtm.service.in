@@ -1,0 +1,10 @@
+[Unit]
+Description=File chooser portal for VTM using Elio
+PartOf=graphical-session.target
+After=dbus.service
+
+[Service]
+Type=dbus
+BusName=org.freedesktop.impl.portal.desktop.vtm
+ExecStart=@CMAKE_INSTALL_FULL_LIBEXECDIR@/xdg-desktop-portal-vtm
+Restart=on-failure
